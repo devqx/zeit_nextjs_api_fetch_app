@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/', function() {
+            var comp = module.exports=webpackJsonp([5],{205:function(e,t,n){e.exports=n(206)},206:function(e,t,n){"use strict";function a(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var u=n(25),r=a(u),l=n(31),s=a(l),o=n(2),c=a(o),d=n(106),f=a(d),i=n(107),p=a(i),h=n(101),m=a(h),w=function(e){return c.default.createElement(f.default,null,c.default.createElement("h1",null,"Batman TV Shows"),c.default.createElement("ul",null,e.shows.map(function(e){var t=e.show;return c.default.createElement("li",{key:t.id},c.default.createElement(m.default,{as:"/p/"+t.id,href:"/post?id="+t.id},c.default.createElement("a",null,t.name)))})))};w.getInitialProps=(0,s.default)(r.default.mark(function e(){var t,n;return r.default.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return e.next=2,(0,p.default)("https://api.tvmaze.com/search/shows?q=batman");case 2:return t=e.sent,e.next=5,t.json();case 5:return n=e.sent,console.log("show data launched : "+n.length),e.abrupt("return",{shows:n});case 8:case"end":return e.stop()}},e,this)})),t.default=w}},[205]);
+            return { page: comp.default }
+          })
+        

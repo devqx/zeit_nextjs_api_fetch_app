@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/post', function() {
+            var comp = module.exports=webpackJsonp([4],{207:function(e,t,n){e.exports=n(208)},208:function(e,t,n){"use strict";function a(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var r=n(25),s=a(r),u=n(31),l=a(u),c=n(209),o=a(c),f=n(2),d=a(f),i=n(106),m=a(i),p=n(107),h=a(p),w=function(e){return d.default.createElement(m.default,null,d.default.createElement("h1",{className:"jsx-4289559208"},e.show.name),d.default.createElement("p",{className:"jsx-4289559208"},e.show.summary.replace(/<[\/]?p>/g,"")),d.default.createElement("img",{src:e.show.image,className:"jsx-4289559208"}),d.default.createElement(o.default,{styleId:"4289559208",css:["h1{color:red;}"]}))};w.getInitialProps=function(){var e=(0,l.default)(s.default.mark(function e(t){var n,a,r;return s.default.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return n=t.query.id,e.next=3,(0,h.default)("https://api.tvmaze.com/shows/"+n);case 3:return a=e.sent,e.next=6,a.json();case 6:return r=e.sent,console.log("Fetched show: "+r.name),e.abrupt("return",{show:r});case 9:case"end":return e.stop()}},e,this)}));return function(t){return e.apply(this,arguments)}}(),t.default=w},209:function(e,t,n){e.exports=n(109)}},[207]);
+            return { page: comp.default }
+          })
+        
